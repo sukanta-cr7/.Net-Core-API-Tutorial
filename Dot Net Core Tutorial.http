@@ -1,0 +1,6 @@
+@Dot_Net_Core_Tutorial_HostAddress = http://localhost:5093
+
+GET {{Dot_Net_Core_Tutorial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

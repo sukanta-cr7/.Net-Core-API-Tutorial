@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "Dot_Net_Core_Tutorial.Controllers.CustomersController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dot_Net_Core_Tutorial.Controllers.CustomersController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customers",
+        "Type": "Dot_Net_Core_Tutorial.Models.Customers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dot_Net_Core_Tutorial.Controllers.CustomersController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/Customers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dot_Net_Core_Tutorial.Controllers.CustomersController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/Customers/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCustomer",
+        "Type": "Dot_Net_Core_Tutorial.Models.Customers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

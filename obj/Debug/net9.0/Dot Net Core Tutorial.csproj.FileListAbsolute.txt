@@ -1,0 +1,84 @@
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\appsettings.Development.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\appsettings.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.staticwebassets.endpoints.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.exe
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.deps.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.runtimeconfig.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Dot Net Core Tutorial.pdb
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.csproj.AssemblyReference.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.AssemblyInfoInputs.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.AssemblyInfo.cs
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.csproj.CoreCompileInputs.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.MvcApplicationPartsAssemblyInfo.cs
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.MvcApplicationPartsAssemblyInfo.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\scopedcss\bundle\Dot Net Core Tutorial.styles.css
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\staticwebassets.build.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\staticwebassets.development.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net .E1D8D3B9.Up2Date
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\refint\Dot Net Core Tutorial.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.pdb
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\Dot Net Core Tutorial.genruntimeconfig.cache
+E:\.Net Core Tutorial\Dot Net Core Tutorial\obj\Debug\net9.0\ref\Dot Net Core Tutorial.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Azure.Core.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Azure.Identity.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.ClientModel.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Memory.Data.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\.Net Core Tutorial\Dot Net Core Tutorial\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
