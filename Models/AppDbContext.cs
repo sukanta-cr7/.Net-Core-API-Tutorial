@@ -10,5 +10,6 @@ namespace Dot_Net_Core_Tutorial.Models
         }
 
         public DbSet<Customers> Customers { get; set; }
+        public DbSet<LoginDetails> LoginDetails { get; set; }
     }
 }

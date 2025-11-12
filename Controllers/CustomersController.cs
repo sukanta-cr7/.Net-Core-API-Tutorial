@@ -1,4 +1,5 @@
 ﻿using Dot_Net_Core_Tutorial.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +7,7 @@ namespace Dot_Net_Core_Tutorial.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CustomersController : ControllerBase
     {
         private readonly AppDbContext _context;
