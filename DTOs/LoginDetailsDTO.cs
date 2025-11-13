@@ -1,4 +1,4 @@
-﻿namespace Dot_Net_Core_Tutorial.Models
+﻿namespace Dot_Net_Core_Tutorial.DTOs
 {
     public class LoginDetailsDTO
     {

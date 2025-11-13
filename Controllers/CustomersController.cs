@@ -1,4 +1,6 @@
-﻿using Dot_Net_Core_Tutorial.Models;
+﻿using Dot_Net_Core_Tutorial.DTOs;
+using Dot_Net_Core_Tutorial.Models;
+using Dot_Net_Core_Tutorial.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,53 +9,45 @@ namespace Dot_Net_Core_Tutorial.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class CustomersController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        public CustomersController(AppDbContext appDbContext) 
+        private readonly ICustomerService _Customer;
+        public CustomersController(ICustomerService customerService) 
         {
-            _context = appDbContext;
+            _Customer = customerService;
         }
         [HttpGet]
-        public async Task<IActionResult> GetCustomers()
+        public async Task<ActionResult<CustomersDTO>> GetCustomers()
         {
-            var result = await _context.Customers.ToListAsync();
+            var result = await _Customer.GetCustomers();
             return Ok(result);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateCustomer([FromBody] Customers customers)
+        public async Task<ActionResult<CustomersDTO?>> CreateCustomer([FromBody] CustomersDTO customers)
         {
-            _context.Customers.Add(customers);
-            await _context.SaveChangesAsync();
-            return Ok();
+            var user = await _Customer.CreateCustomer(customers);
+            if (user == null)
+            {
+                return BadRequest("User already exists.");
+            }
+            return Ok(user);
         }
         [HttpGet("{Id}")]
-        public async Task<IActionResult> GetCustomerById(int Id)
+        public async Task<ActionResult<CustomersDTO>> GetCustomerById(int Id)
         {
-            //var result = await _context.Customers.FindAsync(Id);
-            var result = await _context.Customers.Where(a => a.Id == Id).FirstOrDefaultAsync();
+            var result = await _Customer.GetCustomerById(Id);
             if (result == null)
                 return NotFound();
             return Ok(result);
         }
         [HttpPut("{Id}")]
-        public async Task<IActionResult> UpdateCustomer(int Id, [FromBody] Customers updatedCustomer)
+        public async Task<ActionResult<CustomersDTO>> UpdateCustomer(int Id, [FromBody] CustomersDTO updatedCustomer)
         {
-            // Find the existing customer by Id
-            //var customer = await _context.Customers.FindAsync(Id);
-            var customer = await _context.Customers.Where(a => a.Id == Id).FirstOrDefaultAsync();
+            var customer = await _Customer.UpdateCustomer(Id,updatedCustomer);
 
             if (customer == null)
                 return NotFound();
-
-            // Update properties — you can do this manually or use a mapper
-            customer.Name = updatedCustomer.Name;
-            customer.Email = updatedCustomer.Email;
-            // ... update other fields as needed
-
-            // Save changes to database
-            await _context.SaveChangesAsync();
 
             return Ok(customer);
         }
