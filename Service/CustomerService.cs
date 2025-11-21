@@ -8,13 +8,17 @@ namespace Dot_Net_Core_Tutorial.Service
     public class CustomerService : ICustomerService
     {
         private readonly AppDbContext _context;
-        public CustomerService(AppDbContext appDbContext)
+        private readonly ILogger<CustomerService> _logger;
+        public CustomerService(AppDbContext appDbContext, ILogger<CustomerService> logger)
         {
             _context = appDbContext;
+            _logger = logger;
         }
         public async Task<List<CustomersDTO>> GetCustomers()
         {
-            var result = await _context.Customers.Select(c => 
+            _logger.LogInformation("To fetch all customer details");
+            IQueryable<Customers> customers = _context.Customers;
+            var result = await customers.OrderBy(a=> a.Name).Select(c => 
                 new CustomersDTO
                 {
                     Name = c.Name,
@@ -26,7 +30,8 @@ namespace Dot_Net_Core_Tutorial.Service
         }
         public async Task<CustomersDTO?> CreateCustomer(CustomersDTO customersDto)
         {
-            if (await _context.Customers.AnyAsync(a => a.Email == customersDto.Email))
+            IQueryable<Customers> customers = _context.Customers;
+            if (await customers.AnyAsync(a => a.Email == customersDto.Email))
                 return null;
             var customer = new Customers();
             customer.Name = customersDto.Name;
@@ -46,7 +51,8 @@ namespace Dot_Net_Core_Tutorial.Service
         public async Task<CustomersDTO?> GetCustomerById(int Id)
         {
             //var result = await _context.Customers.FindAsync(Id);
-            var result = await _context.Customers.Where(a => a.Id == Id).Select(c =>
+            IQueryable<Customers> customers = _context.Customers;
+            var result = await customers.Where(a => a.Id == Id).Select(c =>
                 new CustomersDTO
                 {
                     Name = c.Name,
@@ -61,7 +67,8 @@ namespace Dot_Net_Core_Tutorial.Service
         public async Task<CustomersDTO?> UpdateCustomer(int Id, CustomersDTO updatedCustomer)
         {
             //var customer = await _context.Customers.FindAsync(Id);
-            var customer = await _context.Customers.Where(a => a.Id == Id).FirstOrDefaultAsync();
+            IQueryable<Customers> objCustomer = _context.Customers;
+            var customer = await objCustomer.Where(a => a.Id == Id).FirstOrDefaultAsync();
 
             if (customer == null)
                 return null;
