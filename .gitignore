@@ -99,4 +99,5 @@ _NCrunch_*
 *.lock.json
 .DS_Store
 Thumbs.db
-*.txt
+
+log.txt
