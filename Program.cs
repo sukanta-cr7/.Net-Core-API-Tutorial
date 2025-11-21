@@ -25,6 +25,18 @@ try
         sqlOptions => sqlOptions.EnableRetryOnFailure()
         ));
 
+    //Add CORS Policy
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("AllowParticular", policy =>
+        {
+            policy.WithOrigins("https://localhost:44359")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials();
+        });
+    });
+
     builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
         AddJwtBearer(options =>
         options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
@@ -54,6 +66,8 @@ try
         app.UseSwaggerUI();
         app.MapOpenApi();
     }
+
+    app.UseCors("AllowParticular");
 
     app.UseHttpsRedirection();
     app.UseAuthentication();
